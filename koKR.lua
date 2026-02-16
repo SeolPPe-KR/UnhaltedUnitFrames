@@ -1,7 +1,7 @@
 local L = LibStub("AceLocale-3.0"):NewLocale("BetterCooldownManager", "koKR")
 if not L then return end
 
--- [[ General UI & Tabs ]]
+-- [[ 메뉴 및 탭 ]]
 L["General"] = "일반"
 L["Global"] = "전역"
 L["Edit Mode Manager"] = "편집 모드"
@@ -18,7 +18,7 @@ L["Secondary Power Bar"] = "보조 자원 바"
 L["Cast Bar"] = "시전 바"
 L["Profiles"] = "프로필"
 
--- [[ Power & Resource Names ]]
+-- [[ 자원 및 에너지 ]]
 L["Mana"] = "마나"
 L["Rage"] = "분노"
 L["Focus"] = "집중"
@@ -38,7 +38,7 @@ L["Pain"] = "고통"
 L["Essence"] = "정수"
 L["Stagger"] = "시간차"
 
--- [[ Class Names ]]
+-- [[ 직업 명칭 ]]
 L["DEATHKNIGHT"] = "죽음의 기사"
 L["DRUID"] = "드루이드"
 L["HUNTER"] = "사냥꾼"
@@ -53,21 +53,25 @@ L["WARRIOR"] = "전사"
 L["DEMONHUNTER"] = "악마사냥꾼"
 L["EVOKER"] = "기원사"
 
--- [[ Settings & Tooltips ]]
+-- [[ 설정 및 세부 옵션 ]]
 L["Cooldown Text Settings"] = "대기시간 글자 설정"
 L["Text Colour"] = "글자 색상"
 L["Scale By Icon Size"] = "아이콘 크기에 비례"
 L["Anchor From"] = "기준점 시작"
 L["Anchor To"] = "기준점 대상"
-L["X Offset"] = "가로"
-L["Y Offset"] = "세로"
+L["X Offset"] = "가로 위치"
+L["Y Offset"] = "세로 위치"
 L["Font Size"] = "글꼴 크기"
 L["Enable Cast Bar"] = "시전 바 활성화"
 L["Enable Power Bar"] = "자원 바 활성화"
 L["Reset Profile"] = "프로필 초기화"
 L["Use Global Profile Settings"] = "전역 프로필 설정 사용"
+L["Show Spell Name"] = "주문 이름 표시"
+L["Show Item Name"] = "아이템 이름 표시"
+L["Icon Size"] = "아이콘 크기"
+L["Enable Better Cooldown Manager"] = "Better Cooldown Manager 활성화"
 
--- [[ Support & Links ]]
+-- [[ 링크 및 기타 ]]
 L["Join the Discord Community!"] = "Discord 커뮤니티 참여하기!"
 L["Report Issues / Feedback on GitHub!"] = "GitHub에 이슈 제보 및 피드백!"
 L["Support is truly appreciated"] = "여러분의 후원은 큰 힘이 됩니다"
